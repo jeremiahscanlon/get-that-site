@@ -22,7 +22,7 @@ app.use(logger('dev'));
 app.use(express.static('public'));
 
 //database configuration for mongoose
-mongoose.connect('mongodb://localhost/mongoosescraper');
+mongoose.connect('mongodb://localhost/getthatsite');
 var db = mongoose.connection;
 
 // connect to database
