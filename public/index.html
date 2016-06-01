@@ -1,0 +1,75 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>It's a Zoo</title>
+    <!-- Compressed CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+</head>
+<body>
+
+    <div class="row mainContent">
+        <div class="small-8 columns">
+            <table>
+                <thead>
+                <tr>
+                    <th>Table Header</th>
+                    <th>Table Header</th>
+                    <th>Table Header</th>
+                    <th>Table Header</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Content Goes Here</td>
+                    <td>This is longer content Donec id elit non mi porta gravida at eget metus.</td>
+                    <td>Content Goes Here</td>
+                    <td>Content Goes Here</td>
+                </tr>
+                <tr>
+                    <td>Content Goes Here</td>
+                    <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
+                    <td>Content Goes Here</td>
+                    <td>Content Goes Here</td>
+                </tr>
+                <tr>
+                    <td>Content Goes Here</td>
+                    <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
+                    <td>Content Goes Here</td>
+                    <td>Content Goes Here</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="small-4 columns">
+            <div class="row">
+                <div class="small-12 columns">
+                    <div class="input-group">
+                        <input class="input-group-field" value="Add a Note" type="text" id="addNote">
+                        <a class="input-group-button button" id="addNoteSubmit">Submit</a>
+                    </div>
+                    <textarea id="viewNote" placeholder=""></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/plugins/foundation.util.mediaQuery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/plugins/foundation.responsiveToggle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/plugins/foundation.core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/plugins/foundation.responsiveMenu.js"></script>
+    <script>
+        $(document).foundation();
+        var elem = new Foundation.ResponsiveToggle(element, options)
+        $('#element').foundation('toggleMenu');
+    </script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

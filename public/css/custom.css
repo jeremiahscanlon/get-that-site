@@ -1,0 +1,12 @@
+html, body {
+    height:100%;
+    width:100%;
+}
+
+#viewNote {
+    height:250px;
+}
+
+.mainContent {
+    margin-top: 25px;
+}
