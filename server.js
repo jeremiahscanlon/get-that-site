@@ -22,7 +22,7 @@ app.use(logger('dev'));
 app.use(express.static('public'));
 
 //database configuration for mongoose
-mongoose.connect('mongodb://localhost/getthatsite');
+mongoose.connect('mongodb://rFm43mGuSn:DU7HjfNUQEhm@ds013918.mlab.com:13918/heroku_tj54dvff');
 var db = mongoose.connection;
 
 // connect to database
