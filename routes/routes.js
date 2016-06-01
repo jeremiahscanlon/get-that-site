@@ -1,5 +1,6 @@
 
-// var cheerio = require('cheerio');
+var cheerio = require('cheerio');
+var request = require('request');
 
 // require Schemas
 var Page = require('../models/page.js');
@@ -13,9 +14,9 @@ module.exports = function(app){
 
 
     app.get('/scrape', function(req, res) {
-        request('http://www.echojs.com/', function(error, response, html) {
+        request('https://theringer.com/', function(error, response, html) {
             var $ = cheerio.load(html);
-            $('article h2').each(function(i, element) {
+            $('.block-title').each(function(i, element) {
 
                 var result = {};
 

@@ -10,3 +10,21 @@ html, body {
 .mainContent {
     margin-top: 25px;
 }
+
+.tableRow {
+    cursor: pointer;
+}
+
+.tableRow:hover {
+    background-color: #0a0a0a;
+    color: #fff;
+}
+
+#titleinput {
+    width:100%;
+    margin-bottom:10px;
+}
+
+#bodyinput {
+    height:250px;
+}
