@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $.getJSON('http://localhost:8383/pages', function(data) {
+    $.getJSON('/pages', function(data) {
         for (var i = 0; i<data.length; i++){
             $('#articleTable').append('<tr class="tableRow" data-id="' + data[i]._id + '"><td class="tableTitle">'+ data[i].title + '</td><td class="tableLink">'+ data[i].link + '</td></tr>');
         }
